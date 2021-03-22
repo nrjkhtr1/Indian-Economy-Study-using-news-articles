@@ -20,9 +20,9 @@ in India.<br>
 ➣ Web Scraper was developed to handle the format of the article links that needed to be
 scrapped.<br>
 ➣ The entire text of articles along with summary, key-words, headline and year was fetched
-from the specific URL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; using “newspaper” library in Python. <b><i>"Data_scrap.ipynb"</i></b> notebook is used for this application.<br>
+from the specific URL using “newspaper” library in Python. <b><i>"Data_scrap.ipynb"</i></b> notebook is used for this application.<br>
 ➣ The text was then preprocessed to handle special characters, irrelevant text and white
-spaces by simply removing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from the text.<br>
+spaces by simply removing from the text.<br>
 
 <h1><b>Data Labelling</b></h1>
 
@@ -37,7 +37,7 @@ Fig 1. Graph flow of Data Labelling
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv) Vader + LM + HuLiu (HL)<br>
 ➣ All the scores are compared and the Vader + LM + HL dictionary is selected. These steps can be seen in <b><i>"dictionary_based_labelling.ipynb"</i></b>.<br>
 ➣ Finally index of the score is calculated based on the research paper <b><i>"Measuring News Sentiment"</i></b> by Shapiro, Kanjoya and Wilson.<br>
-➣ Then these indexes are compared with the indicators taken from government websites and the result is present in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><i>"comparing_results_with_indicators 2002-2010.ipynb"</i></b> file. <br>
+➣ Then these indexes are compared with the indicators taken from government websites and the result is present in <b><i>"comparing_results_with_indicators 2002-2010.ipynb"</i></b> file. <br>
 
 
 <h1><b>Training on labelled data</b></h1>
