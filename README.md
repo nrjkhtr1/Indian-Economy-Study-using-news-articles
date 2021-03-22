@@ -20,7 +20,7 @@ in India.<br>
 ➣ Web Scraper was developed to handle the format of the article links that needed to be
 scrapped.<br>
 ➣ The entire text of articles along with summary, key-words, headline and year was fetched
-from the specific URL using “newspaper” library in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python. <b><i>"Data_scrap.ipynb"</i></b> notebook is used for this application.<br>
+from the specific URL using “newspaper” library in Python. <b><i>"Data_scrap.ipynb"</i></b> notebook is used for this application.<br>
 ➣ The text was then preprocessed to handle special characters, irrelevant text and white
 spaces by simply removing from the text.<br>
 
@@ -52,7 +52,7 @@ Fig 2. Training on data
 Fig 3. Sentence is divided into triplets.
 
 Above step can be see in <b><i>"Triple_generation.ipynb"</i></b> file.<br>
-➣ After converting the sentence to triplets it is then feed into transE algorithm to get the embeddings of triplets. This step can be seen in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>"transE.ipynb"</i></b> file.<br>
+➣ After converting the sentence to triplets it is then feed into transE algorithm to get the embeddings of triplets. This step can be seen in <b><i>"transE.ipynb"</i></b> file.<br>
 ➣ Entity with close meanings would have close embedding vectors. <br>
 ➣ Feed the embedding vector of the news articles to the sequential model. <br>
 ➣ Optimize the architecture of the model by using Bi-LSTM and attention or advance
