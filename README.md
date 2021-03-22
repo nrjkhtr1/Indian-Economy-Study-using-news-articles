@@ -20,9 +20,9 @@ in India.<br>
 ➣ Web Scraper was developed to handle the format of the article links that needed to be
 scrapped.<br>
 ➣ The entire text of articles along with summary, key-words, headline and year was fetched
-from the specific URL using “newspaper” library in Python. <b><i>"Data_scrap.ipynb"</i></b> notebook is used for this application.<br>
+from the specific URL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; using “newspaper” library in Python. <b><i>"Data_scrap.ipynb"</i></b> notebook is used for this application.<br>
 ➣ The text was then preprocessed to handle special characters, irrelevant text and white
-spaces by simply removing from the text.<br>
+spaces by simply removing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from the text.<br>
 
 <h1><b>Data Labelling</b></h1>
 
