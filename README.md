@@ -53,7 +53,7 @@ Fig 3. Sentence is divided into triplets.
 
 Above step can be see in <b><i>"Triple_generation.ipynb"</i></b> file.<br>
 ➣ After converting the sentence to triplets it is then feed into transE algorithm to get the embeddings of triplets. This step can be seen in <b><i>"transE.ipynb"</i></b> file.<br>
-➣ Entity with close meanings would have close embedding vectors. <br>
+➣ Entity with similar meanings would have close embedding vectors. <br>
 ➣ Feed the embedding vector of the news articles to the sequential model. <br>
 ➣ Optimize the architecture of the model by using Bi-LSTM and attention or advance
 technique like BERT.
